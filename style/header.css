@@ -20,11 +20,11 @@
     align-items: center;
 }
 
-.conteainer_imagem {
+.conteainer-img {
   padding: 1em;  
 }
 
-.lista_menu {
+.lista-menu {
     display: none;
     position: absolute;
     top: 100%;
@@ -54,3 +54,6 @@
     text-transform: uppercase;
 }
 
+.conteainer-botao {
+    display: none;
+}
