@@ -2,12 +2,12 @@
     width: 24px;
     height: 24px;
     background-image: url("../img/Menu.svg");
-    display: inline-block;
     background-repeat: no-repeat;
     background-position: center;
+    display: inline-block;
 }
 
-.cabecalho{
+.cabecalho {
     background-color: var(--branco);
     display: flex;
     justify-content: space-between;
@@ -20,28 +20,30 @@
     align-items: center;
 }
 
-.conteainer-img{
+.conteainer_imagem {
   padding: 1em;  
 }
 
-.lista-menu{
+.lista_menu {
     display: none;
     position: absolute;
     top: 100%;
     width: 60vw;
 }
 
-.conteainer-botao :checked ~.lista-menu{
+.conteainer-botao :checked~.lista-menu {
     display: block;
 }
 
-.lista-menu-titulo, .lista-menu-titulo{
+.lista-menu-titulo, 
+.lista-menu-titulo {
     padding: 1em;
     background-color: var(--branco);
 }
 
 .lista-menu-titulo {
     color: var(--laranja);
+    font-weight: 700;
 }
 
 .lista-menu-link {
@@ -51,3 +53,4 @@
     background-clip: text;
     text-transform: uppercase;
 }
+
